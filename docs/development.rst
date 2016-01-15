@@ -113,7 +113,7 @@ Here's what that folder contains:
 
 - ``docs.txt`` - contains dependencies that are required to build the docs
 
-- ``tests.txt`` - a file for tests dependencies, both local and automatic
+- ``testing.txt`` - a file for tests dependencies, both local and automatic
 
 - ``travis.txt`` - a file used by the ``.travis.yml`` config file when
   running automatic testing
