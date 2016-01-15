@@ -21,7 +21,7 @@ VENV_BIN = os.path.join(settings.VENV_DIR, 'bin')
 # specifc one.
 os.environ['DJANGO_SETTINGS_MODULE'] = 'settings_local'
 
-# Use commander's remote hostname to differ between stage and prd in setting.py
+# Use commander's remote hostname to differ between stage and prod in setting.py
 os.environ['CHIEF_REMOTE_HOSTNAME'] = settings.REMOTE_HOSTNAME
 
 # Setup local executable paths
